@@ -1,0 +1,86 @@
+
+.create-class form {
+    display:flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.create-class form div div{
+    display: flex;
+    justify-content: center;
+    margin-top: .4rem;
+}
+.create-class form div div.image{
+    display: inline-block;
+}
+
+
+/* add img */
+.custom__form .input-img {
+    /* opacity: 0; */
+    display: none;
+    height: 0;
+  }
+  .custom__image-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .custom__image-container label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 150%;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    border: solid 1px black;
+    border-radius: 5px;
+    object-fit: cover;
+  }
+  .custom__image-container img {
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border: solid 1px black;
+    border-radius: 5px;
+    object-fit: cover;
+  }
+
+
+.create-class form div div img {
+    display: block;
+    width: 200px;
+    height: 200px;
+    border: .1rem solid black;
+    border-radius: 50%;
+    margin: .5rem 0 .5rem 0;
+}
+.create-class form div div input{
+    width: 14rem;
+    height: 2rem;
+    border:1px gray solid;
+    border-radius: 6px;
+    padding: .3rem;
+}
+.create-class form div div textarea {
+    max-width: 500px;
+    max-height: 100px;
+    border:1px gray solid;
+    border-radius: 6px;
+    padding: .3rem;
+}
+
+.create-class form div div button {
+    width: 5rem;
+    border: 1px solid black;
+    background-color: #9b9999;
+    border-radius: .2rem;
+    cursor: pointer;
+    margin-bottom: .5rem;
+    padding: .2rem;
+}
+.create-class form div div button:hover {
+    background-color: #91c6df;
+}
